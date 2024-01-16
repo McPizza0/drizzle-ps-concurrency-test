@@ -53,6 +53,7 @@
     "@antfu/utils": "^0.7.7",
     "@types/node": "^20.10.7",
     "bumpp": "^9.2.1",
+    "drizzle-kit": "^0.20.13",
     "eslint": "^8.56.0",
     "esno": "^4.0.0",
     "lint-staged": "^15.2.0",
@@ -69,5 +70,9 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.13.0",
+    "drizzle-orm": "^0.29.3"
   }
 }
